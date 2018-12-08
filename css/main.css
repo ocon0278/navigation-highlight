@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  max-width: inherit;
 }
 
 *, *::before, *::after {
@@ -12,4 +13,15 @@ header {
 
 h1 {
   color: #b20953;
+  font-family: Sigmar One;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
 }
