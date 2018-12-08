@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  max-width: 25em;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -14,14 +14,32 @@ header {
 h1 {
   color: #b20953;
   font-family: Sigmar One;
+  text-align: center;
+  font-size: 3rem;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 li a {
   display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  background-color: #b2a212;
+  color: #fff;
+  font-size: 1.875rem;
+  font-family: Georgia;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+nav {
+  display: inline-block;
 }
