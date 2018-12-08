@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  max-width: inherit;
+  max-width: 25em;
 }
 
 *, *::before, *::after {
