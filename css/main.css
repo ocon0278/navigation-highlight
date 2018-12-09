@@ -9,6 +9,7 @@ html {
 
 header {
   background-color: #ffe500;
+  display: block;
 }
 
 h1 {
@@ -18,26 +19,30 @@ h1 {
   font-size: 3rem;
 }
 
-ul {
+nav ul li{
+  display: inline-block;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: block;
 }
 
 li a {
   display: inline-block;
   text-align: center;
-  padding: 16px;
   text-decoration: none;
   background-color: #b2a212;
   color: #fff;
   font-size: 1.875rem;
   font-family: Georgia;
+  border: 3px solid #b2a212;
+  border-radius: 7px;
+  padding: .4em .75em .5em;
+  text-decoration: none;
+  margin: 0;
 }
 
 .current {
   background-color: #b20953;
+  border-color: #b20953;
+  display: inline-block;
 }
 
 nav {
