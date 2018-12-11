@@ -10,6 +10,7 @@ html {
 header {
   background-color: #ffe500;
   display: block;
+  text-align: center;
 }
 
 h1 {
@@ -17,11 +18,20 @@ h1 {
   font-family: Sigmar One;
   text-align: center;
   font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  color: #b20953;
+  font-family: Sigmar One;
+  text-align: left;
+  font-size: 1.875rem;
 }
 
 nav ul li{
   display: inline-block;
   list-style-type: none;
+  margin-bottom: .3em;
 }
 
 li a {
@@ -30,11 +40,10 @@ li a {
   text-decoration: none;
   background-color: #b2a212;
   color: #fff;
-  font-size: 1.875rem;
   font-family: Georgia;
-  border: 3px solid #b2a212;
-  border-radius: 7px;
-  padding: .4em .75em .5em;
+  border: 1px solid #b2a212;
+  border-radius: 4px;
+  padding: .2em .5em .3em;
   text-decoration: none;
   margin: 0;
 }
@@ -45,6 +54,26 @@ li a {
   display: inline-block;
 }
 
-nav {
-  display: inline-block;
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+main {
+  padding: 0 .75em;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  font-size: .75rem;
+  padding: .75em;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
 }
