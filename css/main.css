@@ -46,6 +46,7 @@ li a {
   padding: .2em .5em .3em;
   text-decoration: none;
   margin: 0;
+  font-size: 1.125rem;
 }
 
 .current {
@@ -60,6 +61,7 @@ body {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 main {
@@ -73,7 +75,15 @@ footer {
   padding: .75em;
 }
 
+footer small {
+  font-size: .75rem;
+}
+
 .img-flex {
   width: 100%;
   display: block;
+}
+
+a:hover {
+  background-color: #cc1465;
 }
