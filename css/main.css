@@ -79,7 +79,7 @@ footer small {
   font-size: .75rem;
 }
 
-.img-flex {
+img {
   width: 100%;
   display: block;
 }
@@ -90,8 +90,4 @@ a:hover {
 
 p {
   font-size: 1.125rem;
-}
-
-img {
-  margin: 0;
 }
