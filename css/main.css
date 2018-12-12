@@ -15,7 +15,7 @@ header {
 
 h1 {
   color: #b20953;
-  font-family: Sigmar One;
+  font-family: "Sigmar One";
   text-align: center;
   font-size: 3rem;
   margin: 0;
@@ -23,12 +23,12 @@ h1 {
 
 h2 {
   color: #b20953;
-  font-family: Sigmar One;
+  font-family: "Sigmar One";
   text-align: left;
   font-size: 1.875rem;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   list-style-type: none;
   margin-bottom: .3em;
@@ -44,7 +44,6 @@ li a {
   border: 1px solid #b2a212;
   border-radius: 4px;
   padding: .2em .5em .3em;
-  text-decoration: none;
   margin: 0;
   font-size: 1.125rem;
 }
