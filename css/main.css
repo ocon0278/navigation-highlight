@@ -37,6 +37,7 @@ nav ul li {
 li a {
   display: inline-block;
   text-align: center;
+  font-weight: bold;
   text-decoration: none;
   background-color: #b2a212;
   color: #fff;
@@ -81,6 +82,9 @@ footer small {
 
 .img-flex {
   width: 100%;
+}
+
+.img {
   display: block;
 }
 
