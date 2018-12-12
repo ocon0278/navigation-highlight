@@ -37,7 +37,6 @@ nav ul li {
 li a {
   display: inline-block;
   text-align: center;
-  font-weight: bold;
   text-decoration: none;
   background-color: #b2a212;
   color: #fff;
@@ -91,5 +90,8 @@ a:hover {
 
 p {
   font-size: 1.125rem;
-  font-weight: bold;
+}
+
+img {
+  margin: 0;
 }
