@@ -89,5 +89,6 @@ a:hover {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: .75rem;
+  font-family: Georgia;
 }
