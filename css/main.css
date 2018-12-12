@@ -65,6 +65,7 @@ ul {
 
 main {
   padding: 0 .75em;
+  color: #2f2d13;
 }
 
 footer {
@@ -85,4 +86,8 @@ footer small {
 
 a:hover {
   background-color: #cc1465;
+}
+
+p {
+  font-size: 1.875rem;
 }
